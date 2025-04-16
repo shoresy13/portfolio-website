@@ -320,7 +320,21 @@ footer ul li a {
     text-align: center;
     background: rgba(0, 0, 0, 0.9);
     border-radius: 3rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: scaleY(0.95);
+    transition: max-height 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
     display: none;
+  }
+  #menu-icon {
+    font-size: 2rem;
+    display: none;
+    transition: transform 0.3s ease;
+  }
+  #menu-icon.fa-xmark {
+    font-size: 2rem;
+    transform: rotate(90deg);
   }
   .nav-links li {
     margin-top: 1.5rem;
@@ -328,6 +342,9 @@ footer ul li a {
   }
   .nav-links.active {
     display: block;
+    max-height: 500px;
+    opacity: 1;
+    transform: scaleY(1);
   }
   header {
     padding: 1rem 2rem;
