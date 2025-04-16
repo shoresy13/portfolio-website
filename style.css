@@ -307,7 +307,6 @@ footer ul li a {
   header #menu-icon {
     display: block;
   }
-
   .nav-links {
     position: absolute;
     top: 100%;
@@ -341,7 +340,7 @@ footer ul li a {
     width: 80vw;
   }
   .input-box input {
-    padding: 0.5rem 3 rem;
+    padding: 0.5rem 3rem;
     width: 80%;
     font-size: 1.5rem;
   }
