@@ -303,7 +303,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   header #menu-icon {
     display: block;
   }
